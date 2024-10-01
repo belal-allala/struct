@@ -1,11 +1,11 @@
 #include <stdio.h>
 
- {
+ typedef struct challenge3{
     float longueur;
     float largeur;
 }Rectangle;
 
-float claire(struct Rectangle rectangle) {
+float claire(Rectangle rectangle) {
     return rectangle.longueur * rectangle.largeur;}
 
 int main() {
